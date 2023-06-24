@@ -11,7 +11,7 @@
       // Verificar se o login é válido (exemplo simples)
       if (email === "usuario" && senha === "senha") {
         // Redirecionar para a página principal
-        window.location.href = "homedositeparallel.html";
+        window.location.href = "pagina_principal.html";
       } else {
         alert("Credenciais de login inválidas. Tente novamente.");
       }
@@ -29,8 +29,6 @@
     <input type="password" id="senha" required><br><br>
     
     <input type="button" value="Entrar" onclick="fazerLogin()">
-    <button type="submit" class="btn btn-"><a href="./cadastronosite.html">cadastra-se</a></button>
-        
   </form>
 </body>
 </html>
