@@ -10,7 +10,8 @@ function fazerLogin (){
             // redirecionar para a pagina principal
             window.location.href = "homedositeparallel.html";
 
-        } else {
+        } else  { 
+                (email != "email" && senha != "senha")
                 alert("sua entrada não foi autorizada")
             }
 }
