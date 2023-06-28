@@ -1,4 +1,6 @@
-function fazerLogin (){
+document.getElementById("enviarBtn").addEventListener("click", fazerLogin);
+
+     function fazerLogin (){
         //valores de entrada do formulario
         let email = document.getElementById("email").value;
 
@@ -8,10 +10,10 @@ function fazerLogin (){
 
         if (email === "email" && senha === "senha") {
             // redirecionar para a pagina principal
-            window.location.href = "homedositeparallel.html";
+            window.location.href = "./homedositeparallel.html";
 
-        } else  {
+        } else {
                 alert("sua entrada não está autorizada");
 
             }
-}
+};
