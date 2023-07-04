@@ -1,0 +1,38 @@
+
+    
+#corpodosite{
+    background-image: url(imagens/AbandonedGrimKagu-max-1mb.gif);
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    color: #d30a0a;
+   
+}
+#form{
+    color: #d30a0a;
+    display: flex;
+  align-items: flex-start;
+   justify-content: center;
+    height: 100vh;
+   flex-direction: column;
+   font-size: medium;
+};
+#cidade{
+    color: #d30a0a;
+    display: flex;
+  align-items: flex-start;
+   justify-content: center;
+    height: 100vh;
+   flex-direction: column;
+   font-size: medium;
+}
+#btn{
+    color: #d30a0a;
+}
