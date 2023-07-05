@@ -4,42 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>siteparallel</title>
-    <link rel="stylesheet" href="./homedositeparallel.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./homedositeparallel.css">
 </head>
 <body id="corpodahome">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">parallel Mysteria</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Instagram</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Universo Paralelo
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">História</a></li>
-                  <li><a class="dropdown-item" href="#">Personagens</a></li>
-                  <li><a class="dropdown-item" href="#">Curiosidade dos Bastidores</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="procurar">
-              <input class="form-control me-2" type="procurar" placeholder="procurar" aria-label="procurar">
-              <button class="btn btn-outline-danger" type="submit">Pesquisar</button>
-            </form>
-          </div>
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <main>Parallel Mysteriuos</main></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Bem vindos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-      </nav>
-</body>
-</html>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Spotify</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Mundos paralelos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Historia</a></li>
+                <li><a class="dropdown-item" href="#">Personagens</a></li>
+                <li><a class="dropdown-item" href="#">Bastidores</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="procurar" aria-label="Search">
+            <button class="btn btn-outline-danger" type="submit">pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="imagens">
+  <div class="card" style="width: 18rem;" id="imagem1">
+    <img src="./imagens/imagem penhasco.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Já imaginou se de um dia para o outro seu mundo fosse totalmente mudado, e isso tudo por causa de um acidente na estrada?</p>
+    </div>
+    <div class="card" style="width: 18rem;" id="imagem2">
+      <img src="./imagens/mysterious-girl-mysterious2.gif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Se você sentisse que algo de extremamente ruim está prestes a acontecer e você será a pessoa responsável por isso</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;" id="imagem3">
+      <img src="./imagens/tunel1.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Seria possivel uma pessoa viajar no tempo espaço e resolver todas as questões antes de acontecer??</p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+  </body>

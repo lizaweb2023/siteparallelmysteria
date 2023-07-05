@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#corpodahome{
+    background-image: url(imagens/estatica1.jpg );
+    display: flex;
+align-items: center;
+flex-direction: row;
+}
+#imagens{
+display: flex;
+align-items: center;
+flex-direction: row;
+}
+
