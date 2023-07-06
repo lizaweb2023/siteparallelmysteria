@@ -1,16 +1,25 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
 #corpodahome{
-    background-image: url(imagens/estatica1.jpg );
-    display: flex;
-align-items: center;
-flex-direction: row;
+   background-color: darkgrey;
+ 
 }
-#imagens{
-display: flex;
-align-items: center;
-flex-direction: row;
+
+.imagens .imagem{
+  display: inline-block;
+ color: red;
+
 }
+.imagens .imagem img{
+    width: 300px;
+    height: 280px;
+}
+/*.imagem1{
+    color: red;
+    display: inline-block;
+    float: left;
+}*/
 
